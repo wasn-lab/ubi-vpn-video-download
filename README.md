@@ -1,12 +1,11 @@
 # ubi-vpn-video-download
-**need**
-
+**What you need to do**
    ```bash
    sudo apt install wget
    sudo apt install tmux
    ```
 
-**use**
+**How to use**
    ```bash
    cd <dir>
    tmux  #to create new session
