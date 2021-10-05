@@ -1,0 +1,8 @@
+#!/bin/bash
+while true
+do
+	date +"%Y-%m-%d %H:%M:%S"
+	echo "Downloading..."
+	wget -r -c -np -nH -R -N index.html* http://10.147.17.70/dir/tmp/mnt/sdcard0/JIT/Pre-Post/
+	sleep 1h
+done
